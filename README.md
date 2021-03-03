@@ -11,4 +11,4 @@ Tool: numpy
 
 Data: [Classify the sentiment of sentences from the Rotten Tomatoes dataset](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews)
 
-Goal: Implement \textbf{Softmax Regression}
+Goal: Implement **Softmax Regression** to categorize different text into different sentiment.
