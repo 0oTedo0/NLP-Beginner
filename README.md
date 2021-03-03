@@ -1,5 +1,5 @@
 # NLP-Beginner
-My exercise of Natural Language Process.
+Exercises of Natural Language Process.
 
 ## Acknowledgements
 《[神经网络与深度学习](https://nndl.github.io/)》 
@@ -11,3 +11,4 @@ Tool: numpy
 
 Data: [Classify the sentiment of sentences from the Rotten Tomatoes dataset](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews)
 
+Goal: Implement \textbf{Softmax Regression}
