@@ -64,7 +64,7 @@ class Softmax:
                 k = random.randint(0, self.sample - 1)  # Choose a sample
                 yhat = self.softmax_calculation(self.W.T.dot(X[k].reshape(-1, 1)))
                 increment = X[k].reshape(-1, 1).dot((self.change_y(y[k]) - yhat).T)  # The gradient
-                self.W += alpha / mini_size * increment
+                self.W += alpha * increment
                 # if not (i % 10000):
                 #     print(i)
         elif strategy=="batch":
@@ -74,6 +74,6 @@ class Softmax:
                     yhat = self.softmax_calculation(self.W.T.dot(X[j].reshape(-1, 1)))
                     increment += X[j].reshape(-1, 1).dot((self.change_y(y[j]) - yhat).T)
                 # print(i)
-                self.W += alpha / mini_size * increment
+                self.W += alpha / self.sample * increment
         else:
             raise Exception("Unknown strategy")
