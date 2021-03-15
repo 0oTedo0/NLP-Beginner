@@ -108,4 +108,5 @@ def alpha_gradient_plot(bag,gram, total_times, mini_size):
     matplotlib.pyplot.xlabel("Learning Rate")
     matplotlib.pyplot.ylabel("Accuracy")
     matplotlib.pyplot.ylim(0, 1)
+    matplotlib.pyplot.tight_layout()
     matplotlib.pyplot.show()
