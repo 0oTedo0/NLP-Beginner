@@ -15,7 +15,9 @@ Data: [Classify the sentiment of sentences from the Rotten Tomatoes dataset](htt
 
 Goal: Implement **Softmax Regression** to categorize different text into different sentiment.
 
-+ ***Update complete code on March 15th.***
++ ***All code has been uploaded***
+
+Please see my [CSDN blog](https://blog.csdn.net/qq_42365109/article/details/114844020) (in Chinese) for further illustration.
 
 ## Task 2: Text categorization based on RNN & CNN
 Language: Python
