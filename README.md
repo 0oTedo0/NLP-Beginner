@@ -30,5 +30,7 @@ Data: [Classify the sentiment of sentences from the Rotten Tomatoes dataset](htt
 
 Goal: Implement Recursive Neural Network **(RNN)** and Convolution Neural Network **(CNN)** to categorize different text into different sentiment.
 
-+ ***Update complete code on March 29th.***
++ ***All code has been uploaded***
+
+Please see my [CSDN blog](https://blog.csdn.net/qq_42365109/article/details/115140450) (in Chinese) for further illustration.
 
