@@ -34,3 +34,17 @@ Goal: Implement Recursive Neural Network **(RNN)** and Convolution Neural Networ
 
 Please see my [CSDN blog](https://blog.csdn.net/qq_42365109/article/details/115140450) (in Chinese) for further illustration.
 
+## Task 3: Text matching based on attention
+Language: Python
+
+Tool: [pytorch](https://pytorch.org/get-started/locally/), numpy
+
+Feature extraction: Random word embedding, [GloVe](https://nlp.stanford.edu/projects/glove/) word embedding
+
+Data: [The Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/)
+
+Reference：[Enhanced LSTM for Natural Language Inference](https://arxiv.org/pdf/1509.06664v1.pdf)
+
+Goal: Implement ESIM mentioned in the reference above.
+
++ ***All code has been uploaded***
