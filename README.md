@@ -48,3 +48,22 @@ Reference：[Enhanced LSTM for Natural Language Inference](https://arxiv.org/pdf
 Goal: Implement ESIM mentioned in the reference above.
 
 + ***All code has been uploaded***
+
+## Task 4: Sequence Labeling based on LSTM+CRF
+Language: Python
+
+Tool: [pytorch](https://pytorch.org/get-started/locally/), numpy
+
+Feature extraction: Random word embedding, [GloVe](https://nlp.stanford.edu/projects/glove/) word embedding
+
+Data: [CONLL 2003](https://github.com/0oTedo0/NLP-Beginner/blob/main/Project%204%EF%BC%9ASequence%20Labeling:%20LSTM%2BCRF/CoNLL-2003.rar)
+
+Data Introduction: [CONLL 2003](https://www.clips.uantwerpen.be/conll2003/ner/)
+
+Reference：[Neural Architectures for Named Entity Recognition](https://arxiv.org/pdf/1603.01360.pdf)
+
+[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/pdf/1603.01354.pdf)
+
+Goal: Sequence Labeling of [CONLL 2003](https://www.clips.uantwerpen.be/conll2003/ner/).
+
++ ***All code has been uploaded***
