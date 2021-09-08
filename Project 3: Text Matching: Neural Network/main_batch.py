@@ -18,8 +18,8 @@ for i in range(n):
     trained_dict[line[0].decode("utf-8").upper()] = [float(line[j]) for j in range(1, 51)]
 
 data = temp[1:]
-max_item = 100
-data = data[:max_item]
+//max_item = 100
+//data = data[:max_item]
 learning_rate = 0.001
 len_feature = 50
 len_hidden = 50
